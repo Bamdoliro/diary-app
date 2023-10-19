@@ -37,6 +37,7 @@ function Section({ children, title }: SectionProps): JSX.Element {
         style={[
           styles.sectionTitle,
           {
+            fontFamily: 'NanumDdobakDdobak',
             color: isDarkMode ? Colors.white : Colors.black,
           },
         ]}>
@@ -46,6 +47,7 @@ function Section({ children, title }: SectionProps): JSX.Element {
         style={[
           styles.sectionDescription,
           {
+            fontFamily: 'NanumDdobakDdobak',
             color: isDarkMode ? Colors.light : Colors.dark,
           },
         ]}>

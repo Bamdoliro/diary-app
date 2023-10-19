@@ -39,7 +39,7 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>NanumDdobakDdobak.ttf</string>
+		<string>Fonts/NanumDdobakDdobak.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
