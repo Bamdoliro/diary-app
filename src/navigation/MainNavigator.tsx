@@ -1,28 +1,40 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import {
+  createStackNavigator,
+  StackNavigationOptions,
+} from '@react-navigation/stack';
 
 import { theme } from '../styles/theme';
+import HomeScreen from '../screens/HomeScreen';
 
 export type MainNavigatorParams = {
   Home: undefined;
 };
 
-const Stack = createStackNavigator<MainNavigatorParams>();
+const StackNavigator = createStackNavigator<MainNavigatorParams>();
 
-const MainNavigator = () => {
+const screenOptions: StackNavigationOptions = {
+  presentation: 'transparentModal',
+};
+
+function MainNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <StackNavigator.Navigator
         initialRouteName="Home"
         screenOptions={() => ({
-          headerShown: true,
+          headerShown: false,
           backgroundColor: theme.color.background,
         })}>
-        {/* <Stack.Screen name="Home" component={HomeScreen} /> */}
-      </Stack.Navigator>
+        <StackNavigator.Screen
+          name="Home"
+          component={HomeScreen}
+          options={screenOptions}
+        />
+      </StackNavigator.Navigator>
     </NavigationContainer>
   );
-};
+}
 
 export default MainNavigator;
