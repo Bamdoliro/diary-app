@@ -1,15 +1,19 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import 'react-native-gesture-handler';
+import StatusBar from './src/components/StatusBar';
 
 import MainNavigator from './src/navigation/MainNavigator';
 import { theme } from './src/styles/theme';
 
 const App = () => {
   return (
-    <View style={styles.root}>
-      <MainNavigator />
-    </View>
+    <>
+      <StatusBar />
+      <View style={styles.root}>
+        <MainNavigator />
+      </View>
+    </>
   );
 };
 
