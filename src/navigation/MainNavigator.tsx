@@ -7,8 +7,10 @@ import {
 
 import { theme } from '../styles/theme';
 import HomeScreen from '../screens/HomeScreen';
+import SplashScreen from '../screens/SplashScreen';
 
 export type MainNavigatorParams = {
+  Splash: undefined;
   Home: undefined;
 };
 
@@ -22,11 +24,16 @@ function MainNavigator() {
   return (
     <NavigationContainer>
       <StackNavigator.Navigator
-        initialRouteName="Home"
+        initialRouteName="Splash"
         screenOptions={() => ({
           headerShown: false,
           backgroundColor: theme.color.background,
         })}>
+        <StackNavigator.Screen
+          name="Splash"
+          component={SplashScreen}
+          options={screenOptions}
+        />
         <StackNavigator.Screen
           name="Home"
           component={HomeScreen}

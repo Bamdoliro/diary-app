@@ -5,15 +5,13 @@ import 'react-native-gesture-handler';
 import MainNavigator from './src/navigation/MainNavigator';
 import { theme } from './src/styles/theme';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <View style={styles.root}>
-        <MainNavigator />
-      </View>
-    </>
+    <View style={styles.root}>
+      <MainNavigator />
+    </View>
   );
-}
+};
 
 export default App;
 
