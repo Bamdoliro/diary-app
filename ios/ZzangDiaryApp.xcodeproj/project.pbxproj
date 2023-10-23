@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ZzangDiaryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ZzangDiaryAppTests.m */; };
-		0DF59FF92AE0A5F500E6D118 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0DF59FF82AE0A5F500E6D118 /* Fonts */; };
+		0C80B921A6F3F58F76C31292 /* libPods-ZzangDiaryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ZzangDiaryApp.a */; };
+		0DEA725F2AE6037D004D4B04 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA725E2AE6037D004D4B04 /* Fonts */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3D3B706CBDE3127E3F92C151 /* libPods-ZzangDiaryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB898E85A03CCA00C9836451 /* libPods-ZzangDiaryApp.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A09F7B4A6F6EB6FD03DE9560 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A150F982D8518CA4826E470 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +30,19 @@
 		00E356EE1AD99517003FC87E /* ZzangDiaryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZzangDiaryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ZzangDiaryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZzangDiaryAppTests.m; sourceTree = "<group>"; };
-		045EDC169D058E30D491F1F8 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0DF59FF82AE0A5F500E6D118 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		0DEA725E2AE6037D004D4B04 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ZzangDiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZzangDiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ZzangDiaryApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ZzangDiaryApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ZzangDiaryApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ZzangDiaryApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ZzangDiaryApp/main.m; sourceTree = "<group>"; };
-		2A150F982D8518CA4826E470 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZzangDiaryApp-ZzangDiaryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AB873ABE17254954865499E /* Pods-ZzangDiaryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp.debug.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ZzangDiaryApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A192180BD31E447AE1D7A1AD /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		CB898E85A03CCA00C9836451 /* libPods-ZzangDiaryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZzangDiaryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E74DECEEBB56A61F026705E2 /* Pods-ZzangDiaryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp.release.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp.release.xcconfig"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZzangDiaryApp-ZzangDiaryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-ZzangDiaryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp.debug.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ZzangDiaryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp.release.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ZzangDiaryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZzangDiaryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig"; path = "Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09F7B4A6F6EB6FD03DE9560 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3B706CBDE3127E3F92C151 /* libPods-ZzangDiaryApp.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-ZzangDiaryApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +90,6 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = ZzangDiaryApp;
@@ -102,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CB898E85A03CCA00C9836451 /* libPods-ZzangDiaryApp.a */,
-				2A150F982D8518CA4826E470 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ZzangDiaryApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZzangDiaryApp-ZzangDiaryAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,7 +115,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				0DF59FF82AE0A5F500E6D118 /* Fonts */,
+				0DEA725E2AE6037D004D4B04 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* ZzangDiaryApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ZzangDiaryAppTests */,
@@ -143,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5AB873ABE17254954865499E /* Pods-ZzangDiaryApp.debug.xcconfig */,
-				E74DECEEBB56A61F026705E2 /* Pods-ZzangDiaryApp.release.xcconfig */,
-				045EDC169D058E30D491F1F8 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */,
-				A192180BD31E447AE1D7A1AD /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-ZzangDiaryApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ZzangDiaryApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ZzangDiaryAppTests" */;
 			buildPhases = (
-				5770E1C84008876A45DBA491 /* [CP] Check Pods Manifest.lock */,
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				60E5BF973884EE956359541B /* [CP] Embed Pods Frameworks */,
-				346788FFCA56403036545386 /* [CP] Copy Pods Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ZzangDiaryApp" */;
 			buildPhases = (
-				26BE2667F15517D6251568CC /* [CP] Check Pods Manifest.lock */,
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0C7648D0CBE9E92529381A60 /* [CP] Embed Pods Frameworks */,
-				35B0FA91E926867DBD279E74 /* [CP] Copy Pods Resources */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,9 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF59FF92AE0A5F500E6D118 /* Fonts in Resources */,
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0DEA725F2AE6037D004D4B04 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0C7648D0CBE9E92529381A60 /* [CP] Embed Pods Frameworks */ = {
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,63 +283,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26BE2667F15517D6251568CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZzangDiaryApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		346788FFCA56403036545386 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		35B0FA91E926867DBD279E74 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5770E1C84008876A45DBA491 /* [CP] Check Pods Manifest.lock */ = {
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,7 +305,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		60E5BF973884EE956359541B /* [CP] Embed Pods Frameworks */ = {
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZzangDiaryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,6 +342,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp/Pods-ZzangDiaryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZzangDiaryApp-ZzangDiaryAppTests/Pods-ZzangDiaryApp-ZzangDiaryAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -434,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 045EDC169D058E30D491F1F8 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -461,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A192180BD31E447AE1D7A1AD /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ZzangDiaryApp-ZzangDiaryAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -485,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AB873ABE17254954865499E /* Pods-ZzangDiaryApp.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ZzangDiaryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -512,7 +508,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E74DECEEBB56A61F026705E2 /* Pods-ZzangDiaryApp.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ZzangDiaryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -604,10 +600,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -677,10 +670,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
